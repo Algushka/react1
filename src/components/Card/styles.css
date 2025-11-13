@@ -1,0 +1,24 @@
+.name{
+font-size:30px;
+
+
+    
+}
+.card {
+    width:500px;
+    height:500px;
+    background-color:yellow;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    gap:30px;
+    color:blue;
+    
+}
+.name{font-size:30px; color:blue}
+.surname{font-size:30px; color:blue}
+.profession{font-size:30px; color:blue}
+.hobby{font-size:30px;}color:blue
+.avatar{font-size:30px; color:blue}

@@ -1,0 +1,17 @@
+.homework_02_wrapper{
+
+display:flex;
+/* На всю страницу: */
+flex:1;
+background-color: aqua;
+margin:20 px;
+padding:20px;
+gap:30px;
+align-items: center;
+justify-content: center;
+}
+.name{}
+.surname{}
+.profession{}
+.hobby{}
+.avatar{}
