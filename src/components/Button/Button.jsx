@@ -1,9 +1,9 @@
 import "./styles.css";
 // function Button({name="Send"}) - Send будет по умолчанию 
-function Button ({name})
+function Button ({name="Send", type="button"})
 {
     
-return <button className="button_component">{name}</button>;
+return <button className="button_component"type={type}>{name}</button>;
 
 
 

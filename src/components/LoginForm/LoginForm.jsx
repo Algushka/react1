@@ -8,6 +8,7 @@ function LoginForm() {
       <div className="heading_form"> Login Form</div>
       <div className="two_inputs"> 
       <Input
+      id="email-id"
         label="Email"
         placeholder="Enter  email:"
         name="email"
@@ -15,6 +16,7 @@ function LoginForm() {
       />
       {/* <div> */}
         <Input
+        id="password-id"
           label="Password"
           placeholder="Enter your password"
           name="passwprd"
