@@ -6,15 +6,18 @@ outline: none;
 border:none;
 padding:0;
 height:70px;
-width:100%;
-background-color: rgb(82,82,241);
+/* width:100%; */
+width:470px;
+background-color:#1F27F5;
 color:white;
 font-size:20px;
-font-weight:bold;
+font-weight:semi-bold;
 cursor:pointer;
-
+border-radius:4px;
+font-family: 'Lato', sans-serif;
 }
 .button_component:hover{
-background-color: rgb(100,100,232);
+background-color: rgb(15, 15, 216);
+cursor:alias;
 
 }

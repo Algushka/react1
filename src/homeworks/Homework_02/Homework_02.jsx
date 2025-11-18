@@ -1,5 +1,5 @@
 import "./styles.css";
-import {card} from "../../components/Card/data";
+// import {card} from "../../components/Card/data";
 
 import Card from "../../components/Card/Card"
 

@@ -1,17 +1,20 @@
 import "./styles.css";
-import {card} from "./data";
+// import {card} from "./data";
 
-function Card(){
-
+// function Card(props){
+function Card({firstName,lastName,job,hobby,avatar}) {
+    // console.log(props);
+    // const{firstName,lastName,job,hobby,avatar}=props;
+// const{Name,Surname,Profession,Hobby,avatar}=card;
 return ( 
 <div class="card">
 
-<img className="avatar" src={card.avatarURL} alt="Здесь фотка " />
-<div className="name"> Name:{card.Name}</div>
-<div className="surname">Surname:{card.Surname} </div>
+<img className="avatar" src={avatar} alt="Здесь фотка " />
+<div className="name"> Name:{firstName}</div>
+<div className="surname">Surname: {lastName}</div>
 
-<div className="profession">Profession: {card.Profession} </div>
-<div className="hobby">Hobby: {card.Hobby} </div>
+<div className="profession">Profession: {job} </div>
+<div className="hobby">Hobby: {hobby} </div>
 </div>
 );
 }

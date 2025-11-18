@@ -1,0 +1,28 @@
+.loginform{
+
+}
+.loginwrap{
+display:flex;
+justify-content: center;
+align-items: center;
+gap:30px;
+font:30px;
+flex-direction: column;
+width:590px;
+height:470px;
+background-color: #FFFFFF;
+justify-content: flex-start;
+align-items:flex-start;
+padding:60px;
+border-radius:10px;
+ border: 1px solid black;
+}
+.heading_form {
+    font-size:24px;
+    font-family: 'Lato', sans-serif;
+}
+.two_inputs {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
