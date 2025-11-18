@@ -1,6 +1,7 @@
 import "./styles.css";
 import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
+// форма login
 function LoginForm() {
   return (
     <div className="loginwrap">
